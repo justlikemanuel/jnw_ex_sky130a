@@ -1,4 +1,4 @@
-description: TB_NCM
+description: Current Mirror
 simulations:
    tran:
     name: Transient analysis
