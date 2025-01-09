@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -31,7 +32,7 @@ N -140 -100 -120 -100 {lab=VSS}
 C {cborder/border_s.sym} 520 0 0 0 {
 user="wulff"
 company="wulff"}
-C {devices/ipin.sym} 120 -270 0 1 {name=p1 lab=IBNS_20U}
+C {devices/opin.sym} 100 -270 0 0 {name=p1 lab=IBNS_20U}
 C {devices/ipin.sym} -140 -100 0 0 {name=p2 lab=VSS}
 C {devices/ipin.sym} -200 -270 0 0 {name=p3 lab=IBPS_5U
 }
