@@ -1,0 +1,70 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1736270750
+<< locali >>
+rect -110 -418 82 208
+rect 1042 112 1234 208
+rect 1040 -156 1234 112
+rect 1040 -418 1232 -156
+rect -110 -430 1452 -418
+rect -110 -598 286 -430
+rect 454 -598 1452 -430
+rect -110 -610 1452 -598
+rect 1040 -614 1232 -610
+<< viali >>
+rect 286 -598 454 -430
+<< metal1 >>
+rect 146 2262 210 4232
+rect 999 3996 1101 4051
+rect 658 3804 1101 3996
+rect 146 1568 210 2198
+rect 148 170 209 1568
+rect 280 -430 460 3796
+rect 703 3749 805 3804
+rect 999 3096 1101 3804
+rect 658 2904 1101 3096
+rect 722 2262 786 2268
+rect 722 2192 786 2198
+rect 999 1596 1101 2904
+rect 658 1474 1101 1596
+rect 658 1404 1100 1474
+rect 1000 796 1100 1404
+rect 658 650 1100 796
+rect 658 604 1096 650
+rect 658 504 850 604
+rect 280 -598 286 -430
+rect 454 -598 460 -430
+rect 280 -610 460 -598
+<< via1 >>
+rect 146 2198 210 2262
+rect 722 2198 786 2262
+<< metal2 >>
+rect 140 2198 146 2262
+rect 210 2198 722 2262
+rect 786 2198 792 2262
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_0 ~/Documents/NTNU/01_Advanced_Integrated_Circuits/aicex2025/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A
+timestamp 1736198507
+transform 1 0 -14 0 1 2460
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_1
+timestamp 1736198507
+transform 1 0 -14 0 1 854
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_3
+timestamp 1736198507
+transform 1 0 -14 0 1 1658
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_4
+timestamp 1736198507
+transform 1 0 -14 0 1 56
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_5
+timestamp 1736198507
+transform 1 0 -14 0 1 3260
+box -184 -128 1336 928
+<< labels >>
+flabel metal2 210 2198 722 2262 0 FreeSans 1600 0 0 0 IBPS_5U
+flabel metal1 658 3804 1101 3996 0 FreeSans 1600 0 0 0 IBNS_20U
+flabel locali -110 -610 1452 -418 0 FreeSans 1600 0 0 0 VSS
+<< end >>
