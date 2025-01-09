@@ -1,0 +1,3 @@
+This is a simple current mirror. 
+But it works.
+Hopefully...
